@@ -1,5 +1,5 @@
-function myName(name) {
-    console.log('Hi ' + name);
+function isPallindrome(str) {
+    return str === str.split('').reverse().join('');
 }
 
 myName("Ayan");
